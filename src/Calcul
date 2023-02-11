@@ -33,7 +33,7 @@ class Calcul {
         if (num1 > 10 || num2 > 10) {
             throw new Exception("числа должны быть от 1 до 10");
         }
-        int arabian = calc(num1, num2, oper);
+        int arabian = calcul(num1, num2, oper);
         if (isRoman) {
             if (arabian <= 0) {
                 throw new Exception("в римской системе нет отрицательных чисел");
