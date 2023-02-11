@@ -11,5 +11,5 @@ class Calcul {
 
     static java.lang.String detectOperation(java.lang.String expression) { /* compiled code */ }
 
-    static int calc(int a, int b, java.lang.String oper) { /* compiled code */ }
+    static int calcul(int a, int b, java.lang.String oper) { /* compiled code */ }
 }
