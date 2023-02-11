@@ -51,7 +51,7 @@ class Calcul {
         else if (expression.contains("/")) return "/";
         else return null;
     }
-    static int calc(int a, int b, String oper) {
+    static int calcul(int a, int b, String oper) {
 
         if (oper.equals("+")) return a + b;
         else if (oper.equals("-")) return a - b;
